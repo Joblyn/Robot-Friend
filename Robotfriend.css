@@ -1,0 +1,111 @@
+/*This is the stylesheet for Robotfriend1.html*/
+header {
+	text-align: center;
+	font-family:'Roboto', sans-serif;
+	
+}
+
+.head,
+.body{
+	background-color: red;
+	
+}
+
+.head{
+	display: flex;
+	justify-content: center;
+	align-content: flex-end; 
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	border-radius: 200px 200px 0 0;
+}
+
+.head:hover{
+	width: 300px;
+	transition: 1s ease-in-out
+}
+}
+
+.eyes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lefteye, 
+.righteye {
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	background-color: white;
+}
+
+.lefteye {
+	position: relative;
+	top: 100px;
+	left: 40px;
+}
+
+.righteye{
+	position: relative;
+	top: 83px;
+	left:-50px;
+}
+
+.body_arms{
+	display: flex;
+	justify-content: center;
+	align-content: 
+}
+
+.body {
+	width: 200px;
+	height: 200px;
+	margin: 0px 10px;
+	border-radius: 0 0 50px 50px ;
+	background-color: red;
+	order: -0.5;
+
+}
+
+.leftarm {
+	width: 30px;
+	height: 100px;
+	border-radius: 15px;
+	background-color: red;
+}
+
+.rightarm {
+	width: 30px;
+	height: 100px;
+	border-radius: 15px;
+	background-color: red;
+}
+
+.legs{
+	display: flex;
+	justify-content: center;
+	/* align-content: center; */
+}
+
+.leftleg {
+	width: 30px;
+	height: 125px;
+	margin: -20px 20px 0 20px;
+	border-radius: 15px;
+	background-color:red;
+}
+
+.leftleg:hover{
+	transform: rotate(20deg);
+}
+
+.rightleg{
+	width: 30px;
+	height: 125px;
+	margin: -20px 20px 0 20px;
+	border-radius: 15px;
+	background-color: red;
+}
